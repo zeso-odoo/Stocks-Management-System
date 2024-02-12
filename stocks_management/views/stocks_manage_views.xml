@@ -1,0 +1,54 @@
+<odoo>
+    <record id="stocks_management_action" model="ir.actions.act_window">
+        <field name="name">stocks</field>
+        <field name="res_model">stocks.manage</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="stocks_management_view_tree" model="ir.ui.view">
+        <field name="name">stocks.manage.tree</field>
+        <field name="model">stocks.manage</field>
+        <field name="arch" type="xml">
+            <tree string="Stocks">
+                <field name="name"/>
+                <field name="sector"/>
+            </tree>
+        </field>
+    </record>
+    <record id="stocks_management_view_form" model="ir.ui.view">
+        <field name="name">stocks.manage.form</field>
+        <field name="model">stocks.manage</field>
+        <field name="arch" type="xml">
+            <form string="Stocks">
+                <sheet>
+                    <div class="title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="stocks"/>
+                        </group>
+                        <group>
+                            <field name="sector"/>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <group>
+                                    <field name="current_price"/>
+                                    <field name="sector"/>
+                                    <field name="high_price"/>
+                                    <field name="low_price"/>
+                                    <field name="all_time_high"/>
+                                    <filed name="all_time_low"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </group>
+                </sheet>           
+            </form>
+        </field>
+    </record>
+</odoo>
+    
