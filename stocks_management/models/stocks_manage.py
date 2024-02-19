@@ -4,6 +4,7 @@ class StocksManagement(models.Model):
     _name = "stocks.manage"
     _description = "Stocks management system"
 
+    stocks=fields.Char(required=True)
     name = fields.Char(default="Unknown")
     description = fields.Char(string='Description')
     current_price=fields.Float(required=True)
@@ -14,6 +15,6 @@ class StocksManagement(models.Model):
     high_price=fields.Float(required=True)
     low_price=fields.Float(required=True)
     all_time_high=fields.Float(required=True)
-    all_time_low=field.Float(required=True)
+    all_time_low=fields.Float(required=True)
 
 

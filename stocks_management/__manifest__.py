@@ -8,10 +8,10 @@
         'base'
     ],
     'data': [
-    
         'security/ir.model.access.csv',
+        'views/stocks_management_menus.xml',
+        'views/stocks_manage_user_views.xml',
         'views/stocks_manage_views.xml',
-        'views/stocks_management_menus.xml'
         
     ],
     'installable': True,

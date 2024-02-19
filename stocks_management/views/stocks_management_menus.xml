@@ -3,5 +3,13 @@
         <menuitem id='stocks_management_first_level' name='Stocks'>
             <menuitem id='stocks_management_action_menu' action='stocks_management_action'/>
         </menuitem>
+        <!-- <menuitem id='stocks_settings_menu' name='Settings'>
+            <menuitem id='stocks_manage_user_action_menu' action='stocks_manage_user_action'/>
+        </menuitem> -->
+
+        <menuitem id='stocks_settings_menu' name='Settings'>
+            <menuitem id='stcoks_manage_transaction_action_menu' action='stocks_manage_transaction_action'/>
+            <menuitem id='stcoks_manage_user_action_menu' action='stocks_manage_user_action'/>
+        </menuitem>
     </menuitem>
 </odoo>

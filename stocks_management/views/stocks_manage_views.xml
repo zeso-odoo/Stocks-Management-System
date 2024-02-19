@@ -1,6 +1,6 @@
 <odoo>
     <record id="stocks_management_action" model="ir.actions.act_window">
-        <field name="name">stocks</field>
+        <field name="name">Stocks</field>
         <field name="res_model">stocks.manage</field>
         <field name="view_mode">tree,form</field>
     </record>
@@ -37,11 +37,10 @@
                             <page string="Description">
                                 <group>
                                     <field name="current_price"/>
-                                    <field name="sector"/>
                                     <field name="high_price"/>
                                     <field name="low_price"/>
                                     <field name="all_time_high"/>
-                                    <filed name="all_time_low"/>
+                                    <field name="all_time_low"/>
                                 </group>
                             </page>
                         </notebook>
