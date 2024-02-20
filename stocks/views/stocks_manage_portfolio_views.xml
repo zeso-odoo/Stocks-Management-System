@@ -1,0 +1,16 @@
+<odoo>
+    <record id="stocks_manage_portfolio_action" model="ir.actions.act_window">
+        <field name="name">Portfolio</field>
+        <field name="res_model">stocks.manage.portfolio</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="stocks_manage_portfolio_view_tree" model="ir.ui.view">
+        <field name="name">stocks.manage.portfolio.tree</field>
+        <field name="model">stocks.manage.portfolio</field>
+        <field name="arch" type="xml">
+            <tree string="portfolio">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>  
+</odoo>

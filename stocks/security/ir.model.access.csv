@@ -1,0 +1,6 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+stocks.access_stocks_manage_user,access_stocks_manage_user,stocks.model_stocks_manage_user,base.group_user,1,1,1,1
+stocks.access_stocks_manage_transaction,access_stocks_manage_transaction,stocks.model_stocks_manage_transaction,base.group_user,1,1,1,1
+stocks.access_stocks_manage_portfolio,access_stocks_manage_portfolio,stocks.model_stocks_manage_portfolio,base.group_user,1,1,1,1
+stocks.access_stocks_manage_holding,access_stocks_manage_holding,stocks.model_stocks_manage_holding,base.group_user,1,1,1,1
+
