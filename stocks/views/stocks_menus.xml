@@ -3,12 +3,17 @@
         <menuitem id='stocks_manage_first_level' name='User'>
             <menuitem id='stocks_manage_action_menu' action='stocks_manage_action'/>
         </menuitem>
-        <menuitem id='stocks_manage_holding_menu' name='Holding'>
-            <menuiem id='stocks_manage_holding_action_menu' action='stocks_manage_holding_action'/>
-        </menuitem>
-       <menuitem id='stocks_manage_settings_menu' name='Settings'>
+        <menuitem id='stocks_manage_transaction_menu' name='Transaction'>
             <menuitem id='stocks_manage_transaction_action_menu' action='stocks_manage_transaction_action'/>
+        </menuitem>
+        <menuitem id='stocks_manage_holding_menu' name='Holding'>
+            <menuitem id='stocks_manage_holding_action_menu' action='stocks_manage_holding_action'/>
+        </menuitem>
+        <menuitem id='stocks_manage_portfolio_menu' name='Portfolio'>
             <menuitem id='stocks_manage_portfolio_action_menu' action='stocks_manage_portfolio_action'/>
-       </menuitem>
+        </menuitem>
+        <menuitem id='stocks_settings_menu' name='Settings'>
+          
+        </menuitem>
     </menuitem>
 </odoo>

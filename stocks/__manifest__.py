@@ -9,10 +9,11 @@
     ],
     'data':[
         'security/ir.model.access.csv',
-        'views/stocks_manage_user_views.xml',
-        'views/stocks_manage_transaction_views.xml',
-        'views/stocks_manage_holding_views.xml',
+        
         'views/stocks_manage_portfolio_views.xml',
+        'views/stocks_manage_holding_views.xml',
+        'views/stocks_manage_transaction_views.xml',
+        'views/stocks_manage_user_views.xml',
         'views/stocks_menus.xml',
     ],
     'installable':True,

@@ -8,10 +8,9 @@
         <field name="name">stocks.manage.holding.tree</field>
         <field name="model">stocks.manage.holding</field>
         <field name="arch" type="xml">
-            <tree string="Holding">
+            <tree string="Holding List">
+                <field name="portfolio_id"/>
                 <field name="quantity"/>
-                <field name="purchase_price"/> 
-                <field name="purchase_date"/>
             </tree>
         </field>
     </record>
@@ -21,11 +20,12 @@
         <field name="arch" type="xml">
             <form string="Holding">
                 <sheet>
-                    <field name="portfolio_id">
-                        <tree>
-                            <field name="name"/>
-                        </tree>
-                    </field>
+                    <group name="portfolio">
+                        <field name="portfolio_id"/>
+                        <field name="quantity"/>
+                        <field name="purchase_price"/>
+                        <field name="purchase_date"/>
+                    </group>
                 </sheet>
             </form>
         </field>

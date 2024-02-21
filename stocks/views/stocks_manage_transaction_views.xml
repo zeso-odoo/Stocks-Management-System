@@ -27,7 +27,9 @@
                         </h1>
                     </div>
                     <group>
-                        <group></group>
+                        <group>
+                            <field name="holding_id"/>
+                        </group>
                         <notebook>
                             <page string="Description">
                                 <group>

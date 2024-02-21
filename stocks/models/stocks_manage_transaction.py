@@ -9,3 +9,4 @@ class StocksManageTransaction(models.Model):
     required=True)
     transaction_price=fields.Float(string='Transaction price',required=True)
     transaction_date=fields.Date(string='Transaction Date',required=True)
+    holding_id=fields.Many2one('stocks.manage.holding',string='holding',required=True)
