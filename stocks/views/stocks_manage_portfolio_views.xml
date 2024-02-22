@@ -11,6 +11,7 @@
             <tree string="Portfolio List">
                 <field name="name"/>
                 <field name="user_id"/>
+                <field name="total_profit_loss"/>
             </tree>
         </field>
     </record> 
@@ -23,6 +24,7 @@
                     <group name="portfolio">
                         <field name="name"/>
                         <field name="user_id"/>
+                        <field name="total_profit_loss"/>
                     </group>
                 </sheet>
             </form>

@@ -1,7 +1,10 @@
 <odoo>
-    <menuitem id='stocks_manage_root_menu' name='Stocks'>
-        <menuitem id='stocks_manage_first_level' name='User'>
+    <menuitem id='stocks_manage_root_menu' name='Stocks'>  
+        <menuitem id='stocks_manage_first_level' name='Stocks'>
             <menuitem id='stocks_manage_action_menu' action='stocks_manage_action'/>
+        </menuitem>
+        <menuitem id='stocks_manage_stocks_menu' name='User'>
+            <menuitem id='stocks_manage_stocks_action_menu' action='stocks_manage_stocks_action'/>
         </menuitem>
         <menuitem id='stocks_manage_transaction_menu' name='Transaction'>
             <menuitem id='stocks_manage_transaction_action_menu' action='stocks_manage_transaction_action'/>
@@ -11,9 +14,6 @@
         </menuitem>
         <menuitem id='stocks_manage_portfolio_menu' name='Portfolio'>
             <menuitem id='stocks_manage_portfolio_action_menu' action='stocks_manage_portfolio_action'/>
-        </menuitem>
-        <menuitem id='stocks_settings_menu' name='Settings'>
-          
         </menuitem>
     </menuitem>
 </odoo>

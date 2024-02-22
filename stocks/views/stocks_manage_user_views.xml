@@ -1,6 +1,6 @@
 <odoo>
     <record id="stocks_manage_action" model="ir.actions.act_window">
-        <field name="name">Stocks</field>
+        <field name="name">User</field>
         <field name="res_model">stocks.manage.user</field>
         <field name="view_mode">tree,form</field>
     </record>
@@ -14,7 +14,7 @@
                 <field name="pancard"/>
                 <field name="email"/>
                 <field name="no_of_stocks"/>
-                <field name="total_pl"/>
+                <field name="total_profit_loss"/>
             </tree>
         </field>
     </record>
@@ -34,7 +34,7 @@
                         <field name="pancard"/>
                         <field name="email"/>
                         <field name="no_of_stocks"/>
-                        <field name="total_pl"/>
+                        <field name="total_profit_loss"/>
                     </group>
                 </sheet>
             </form>

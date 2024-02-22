@@ -3,4 +3,5 @@ stocks.access_stocks_manage_user,access_stocks_manage_user,stocks.model_stocks_m
 stocks.access_stocks_manage_transaction,access_stocks_manage_transaction,stocks.model_stocks_manage_transaction,base.group_user,1,1,1,1
 stocks.access_stocks_manage_portfolio,access_stocks_manage_portfolio,stocks.model_stocks_manage_portfolio,base.group_user,1,1,1,1
 stocks.access_stocks_manage_holding,access_stocks_manage_holding,stocks.model_stocks_manage_holding,base.group_user,1,1,1,1
+stocks.access_stocks_manage_stocks,access_stocks_manage_stocks,stocks.model_stocks_manage_stocks,base.group_user,1,1,1,1
 

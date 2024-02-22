@@ -1,0 +1,60 @@
+<odoo>
+    <record id='stocks_manage_stocks_action' model="ir.actions.act_window">
+        <field name="name">Stocks</field>
+        <field name="res_model">stocks.manage.stocks</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id='stocks_manage_stocks_view_tree' model="ir.ui.view">
+        <field name="name">stocks.manage.stocks.tree</field>
+        <field name="model">stocks.manage.stocks</field>
+        <field name="arch" type="xml">
+            <tree string="stocks">
+                <field name="stocks_name"/>
+                <field name="company_name"/>
+                <field name="sector"/>
+                <field name="ceo"/>
+                <field name="Company_revenue"/>
+            </tree>
+        </field>
+    </record>
+    <record id="stocks_manage_stocks_view_form" model="ir.ui.view">
+        <field name="name">stocks.manage.stocks.form</field>
+        <field name="model">stocks.manage.stocks</field>
+        <field name="arch" type="xml">
+            <form string="stocks">
+                <sheet>
+                    <sheet>
+                        <div class="name">
+                            <h1>
+                                <field name="stocks_name"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="company_name"/>
+                                <field name="sector"/>
+                            </group>
+                            <notebook>
+                                <page string="Company Details">
+                                    <group>
+                                        <field name="ceo"/>
+                                        <field name="no_of_employee"/>
+                                        <field name="Company_revenue"/>
+                                    </group>
+                                </page>
+                                <page string="Stocks Details">
+                                    <group>
+                                        <field name="stocks_name"/>
+                                        <field name="current_price"/>
+                                        <field name="all_time_high"/>
+                                        <field name="all_time_low"/>
+                                    </group>
+                                </page>
+                            </notebook>
+                        </group>
+                    </sheet>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
